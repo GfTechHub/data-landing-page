@@ -1,0 +1,21 @@
+:root{
+  --accent:#2563eb;
+}
+
+/* Hero gradient background */
+.bg-gradient{
+  background: linear-gradient(180deg, rgba(37,99,235,0.12), rgba(255,255,255,0));
+}
+
+/* device mock */
+.device-card .screen{
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+  min-height: 210px;
+  border-radius: 12px;
+}
+
+/* tweaks for smaller screens */
+@media (max-width: 767px) {
+  .display-5 { font-size: 1.8rem; }
+  .device-card { display:flex; justify-content:center; }
+}
