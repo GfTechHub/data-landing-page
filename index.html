@@ -1,173 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GFData — Modern Analytics for Small Teams</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NovaSuite – Modern SaaS Platform</title>
 
-  <!-- Bootstrap 5 (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Optional icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Your styles -->
-  <link rel="stylesheet" href="styles.css">
-
-  <meta name="description" content="GFData — easy, beautiful analytics dashboards for small teams. Responsive landing page demo.">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">GFData</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 py-3">
+    <a class="navbar-brand fw-bold fs-3" href="#">NovaSuite</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item ms-3"><a class="btn btn-primary" href="#get-started">Get started</a></li>
+    <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="btn btn-primary ms-3" href="#auth">Login</a></li>
         </ul>
-      </div>
     </div>
-  </nav>
+</nav>
 
-  <!-- HERO -->
-  <header class="py-6 bg-gradient text-white" id="home">
-    <div class="container py-5">
-      <div class="row align-items-center">
-        <div class="col-lg-7">
-          <h1 class="display-5 fw-bold">Beautiful analytics. Fast decisions.</h1>
-          <p class="lead mb-4">Turn raw data into clear dashboards, reports, and daily insights — without the headache.</p>
-          <div class="d-flex gap-2">
-            <a class="btn btn-lg btn-primary" id="get-started" href="#pricing">Start free</a>
-            <a class="btn btn-lg btn-outline-light" href="#features">See features</a>
-          </div>
-          <p class="mt-3 text-muted small">No credit card required • 14-day trial</p>
-        </div>
+<!-- HERO SECTION -->
+<section class="hero d-flex align-items-center justify-content-center text-center">
+    <div data-aos="fade-up">
+        <h1 class="display-3 fw-bold">Build Faster. Launch Smarter.</h1>
+        <p class="lead mt-3">A modern SaaS platform designed for creators, teams, and businesses to scale effortlessly.</p>
+        <a href="#pricing" class="btn btn-primary btn-lg mt-4">Get Started</a>
+    </div>
+</section>
 
-        <div class="col-lg-5 mt-4 mt-lg-0">
-          <div class="device-card shadow-sm rounded p-3 bg-white">
-            <div class="screen rounded">
-              <!-- Simple dashboard mockup -->
-              <div class="p-3">
-                <h6 class="mb-3">Weekly active users</h6>
-                <div class="progress mb-2" style="height:10px;">
-                  <div class="progress-bar" style="width:68%">68%</div>
-                </div>
-                <div class="d-flex justify-content-between small text-muted">
-                  <span>Last week</span><span>+12%</span>
-                </div>
+<!-- FEATURES -->
+<section id="features" class="container py-5">
+    <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Core Features</h2>
 
-                <hr class="my-3">
-
-                <div class="row text-center small">
-                  <div class="col">
-                    <strong>1.2k</strong><br> Visitors
-                  </div>
-                  <div class="col">
-                    <strong>320</strong><br> Signups
-                  </div>
-                  <div class="col">
-                    <strong>82</strong><br> Conversions
-                  </div>
-                </div>
-              </div>
+    <div class="row g-4">
+        <div class="col-lg-4" data-aos="zoom-in">
+            <div class="feature-box p-4">
+                <h4>⚡ Lightning Fast</h4>
+                <p>Optimized performance ensures zero lag experience for your users.</p>
             </div>
-          </div>
         </div>
-      </div><!-- row -->
-    </div><!-- container -->
-  </header>
 
-  <!-- FEATURES -->
-  <section id="features" class="py-5">
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+            <div class="feature-box p-4">
+                <h4>🔒 Enterprise Security</h4>
+                <p>Top-tier security to keep your users and your data safe.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box p-4">
+                <h4>📊 Smart Insights</h4>
+                <p>Real-time analytics built to power intelligent decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing-section py-5">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-4">
-          <div class="card h-100 p-4">
-            <div class="mb-3 display-6 text-primary"><i class="bi bi-bar-chart-line"></i></div>
-            <h5>Real-time dashboards</h5>
-            <p class="text-muted small">Update metrics live and create alerts for the metrics you care about.</p>
-          </div>
-        </div>
+        <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Pricing</h2>
 
-        <div class="col-lg-4">
-          <div class="card h-100 p-4">
-            <div class="mb-3 display-6 text-primary"><i class="bi bi-pie-chart"></i></div>
-            <h5>Custom reports</h5>
-            <p class="text-muted small">Export clean PDF/CSV reports for stakeholders in one click.</p>
-          </div>
-        </div>
+        <div class="row justify-content-center g-4">
 
-        <div class="col-lg-4">
-          <div class="card h-100 p-4">
-            <div class="mb-3 display-6 text-primary"><i class="bi bi-shield-lock"></i></div>
-            <h5>Secure by default</h5>
-            <p class="text-muted small">Role-based access, audit logs, and data encryption at rest.</p>
-          </div>
+            <div class="col-lg-4" data-aos="fade-right">
+                <div class="price-card p-4 text-center">
+                    <h3>Starter</h3>
+                    <h2>$0</h2>
+                    <p>Perfect for beginners</p>
+                    <button class="btn btn-outline-primary">Choose</button>
+                </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="price-card featured p-4 text-center">
+                    <h3>Pro</h3>
+                    <h2>$29/mo</h2>
+                    <p>Best for growing teams</p>
+                    <button class="btn btn-primary">Choose</button>
+                </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-left">
+                <div class="price-card p-4 text-center">
+                    <h3>Enterprise</h3>
+                    <h2>$99/mo</h2>
+                    <p>Unlimited everything</p>
+                    <button class="btn btn-outline-primary">Choose</button>
+                </div>
+            </div>
+
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- PRICING -->
-  <section id="pricing" class="py-5 bg-light">
-    <div class="container">
-      <div class="text-center mb-4">
-        <h2 class="h3">Simple, predictable pricing</h2>
-        <p class="text-muted small">Scale as you grow — cancel anytime.</p>
-      </div>
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="container py-5">
+    <h2 class="text-center fw-bold mb-5" data-aos="fade-up">Loved by Users</h2>
 
-      <div class="row g-3 justify-content-center">
-        <div class="col-md-4">
-          <div class="card h-100 p-4 text-center">
-            <h5>Starter</h5>
-            <p class="display-6 fw-bold">$0 <small class="text-muted">/mo</small></p>
-            <p class="small text-muted">For personal projects and trials</p>
-            <a class="btn btn-outline-primary">Choose</a>
-          </div>
+    <div class="row g-4">
+        <div class="col-lg-4" data-aos="flip-left">
+            <div class="testimonial-box p-4">
+                <p>"The best SaaS platform I've ever used!"</p>
+                <h6>- Sarah M.</h6>
+            </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card h-100 p-4 text-center shadow border-primary">
-            <h5>Pro</h5>
-            <p class="display-6 fw-bold">$29 <small class="text-muted">/mo</small></p>
-            <p class="small text-muted">Team-ready features & export</p>
-            <a class="btn btn-primary">Choose</a>
-          </div>
+        <div class="col-lg-4" data-aos="flip-left" data-aos-delay="150">
+            <div class="testimonial-box p-4">
+                <p>"Easy, powerful, and beautifully designed."</p>
+                <h6>- James T.</h6>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- CTA -->
-  <section class="py-5 text-center">
-    <div class="container">
-      <h3>Ready to explore GFData?</h3>
-      <p class="text-muted">Create an account and start analyzing in under 5 minutes.</p>
-      <a class="btn btn-lg btn-primary" href="#get-started">Start free trial</a>
+        <div class="col-lg-4" data-aos="flip-left" data-aos-delay="300">
+            <div class="testimonial-box p-4">
+                <p>"Our team doubled productivity. Amazing!"</p>
+                <h6>- Alexis P.</h6>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="py-4 bg-white border-top">
-    <div class="container d-flex justify-content-between small">
-      <div>&copy; <span id="year"></span> GFData</div>
-      <div>
-        <a class="text-muted me-3" href="#">Terms</a>
-        <a class="text-muted" href="#contact">Contact</a>
-      </div>
+<!-- LOGIN SECTION -->
+<section id="auth" class="auth-section py-5">
+    <div class="container text-center" data-aos="fade-up">
+        <h2 class="fw-bold mb-4">Join NovaSuite</h2>
+
+        <div class="auth-box mx-auto p-4">
+            <input type="email" class="form-control mb-3" placeholder="Email Address" />
+            <input type="password" class="form-control mb-3" placeholder="Password" />
+            <button class="btn btn-primary w-100 mb-3">Login</button>
+            <button class="btn btn-outline-dark w-100">Continue with Google</button>
+        </div>
     </div>
-  </footer>
+</section>
 
-  <!-- Bootstrap JS (CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+<!-- FOOTER -->
+<footer class="text-center text-light py-3 bg-dark">
+    <p class="mb-0">© 2025 NovaSuite – All Rights Reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/animations.js"></script>
+
 </body>
 </html>
